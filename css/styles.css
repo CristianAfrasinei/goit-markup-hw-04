@@ -377,7 +377,7 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     justify-content: center;
     gap: 24px;
 }
-.ins {
+.inst {
     width: 40px;
     height: 40px;
 }
@@ -389,11 +389,14 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     display: flex;
     align-items: center;
     justify-content: center;
-gap: 24px;
+    gap: 24px;
 }
 .media:hover {
 background-color: #404bbf;
 } 
 .media:focus{
     background-color: #404bbf;
+}
+firstred {
+    fill: var(--light-color);
 }
