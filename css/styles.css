@@ -398,6 +398,6 @@ background-color: #404bbf;
 .media:focus{
     background-color: #404bbf;
 }
-firstred {
+.firstr {
     fill: var(--light-color);
 }
