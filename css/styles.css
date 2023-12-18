@@ -544,7 +544,7 @@ color: #8e8f99;
 }
 
 .icon-custom {
-    fill: currentColor;
+    fill: #f4f4f4fd;
 }
 
 .lastcontainer {
@@ -582,14 +582,37 @@ background-color: #4d5ae5;
 border-radius: 50%;
 display: flex;
 align-items: center;
+align-items: center;
 }
 
 .lastdivlink:hover {
     background-color: #31d0aa;
 }
+
 .lastdivlink {
     background-color: #31d0aa;
 }
+
 .lastsocial {
     fill: #f4f4f4fd;
+}
+
+.allbtn:hover { 
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1);
+}
+
+.allbtn:focus {
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1);
+}
+
+.alllink {
+    display: flex;
+} 
+
+.alllink:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+.alllink:focus {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
