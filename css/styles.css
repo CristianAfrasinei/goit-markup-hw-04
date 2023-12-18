@@ -544,7 +544,7 @@ color: #8e8f99;
 }
 
 .icon-custom {
-    fill: #f4f4f4fd;
+    fill: currentColor;
 }
 
 .lastcontainer {
@@ -605,14 +605,14 @@ align-items: center;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1);
 }
 
-.alllink {
+.alnk {
     display: flex;
 } 
 
-.alllink:hover {
+.alnk:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-.alllink:focus {
+.alnk:focus {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
