@@ -65,18 +65,18 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: var(--brand-color);
-    p {
-        margin: 0;
-    }
-    h2 {
-        margin: 0;
-    }
-    div {
-        display: block;
-    }
-    ul {
-        padding: 0%;
-    }
+}
+p {
+    margin: 0;
+}
+h2 {
+    margin: 0;
+}
+div {
+    display: block;
+}
+ul {
+    padding: 0%;
 }
 .logo {
     font-family: "Raleway", sans-serif;
