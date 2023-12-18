@@ -414,3 +414,45 @@ background-color: #404bbf;
 .firstr {
     fill: var(--light-color);
 }
+.cust-class {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.tittle-custm {
+    font-size: 36px;
+    line-height: 1.11;
+    color: #2e2f42;
+    margin-bottom: 72px;
+    text-align: center;
+}
+.custm-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    list-style-type: none;
+}
+.section-five {
+    width: calc((100% - 120px) / 6)
+    height: 88px;
+}
+.link-customer {
+width: 100%;
+height: 100%;
+border: 1px solid #8e8f99;
+border-radius: 4px;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #8e8f99;
+}
+.link-customer:hover {
+    border-color: #404bbf;
+    color: #404bbf
+}
+.link:focus {
+    border-color: #404bbf;
+    color: #404bbf;
+}
+.icon-custom {
+    fill: currentColor;
+}
