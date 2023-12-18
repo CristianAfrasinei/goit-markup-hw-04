@@ -3,6 +3,7 @@
 *::after {
   box-sizing: border-box;
 }
+
 .navig {
     display:flex;
     margin: 0px;
@@ -10,10 +11,12 @@
     align-items: center;
     gap: 40px;
 }
+
 .topdiv {
     display: flex;
     justify-content: space-between;
 }
+
 .first-button {
     display: block;
     align-items: center;
@@ -26,6 +29,7 @@
     cursor: pointer;
     margin: 0 auto;
 }
+
 .top-head {
     border-bottom: 1px solid #E7E9FC;
    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
@@ -34,14 +38,17 @@
         width: 1440px;
         flex-shrink: 0;
 }
+
 .top-line {
     display: flex;
     justify-content: space-between;
     gap: 40px;
 }
+
 img {
     display:block;
 }
+
 :root {
     --brand-color: #FFFFFFFF;
     --blue: #4D5AE5;
@@ -52,32 +59,40 @@ img {
     --button-color: #4D5AE5;
     --main-button: #E7E9FC;
 }
+
 .container {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
 }
+
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
 }
+
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: var(--brand-color);
 }
+
 p {
     margin: 0;
 }
+
 h2 {
     margin: 0;
 }
+
 div {
     display: block;
 }
+
 ul {
     padding: 0%;
 }
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
@@ -88,24 +103,30 @@ ul {
     color: var(--blue);
     margin-right: 76px;
 }
+
 .link {
     text-decoration: none;
 }
+
 .logo-studio-dark {
     color: var(--dark-blue);
 }
+
 .list {
     list-style: none;
 }
+
 .contacts{
     font-style: normal;
 }
+
 .contacts{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--more-blue);
     font-style: normal;
 }
+
 .index {
     font-weight: 500;
     font-size: 16px;
@@ -114,24 +135,30 @@ ul {
     color: var(--dark-blue);
     text-decoration: none;
 }
+
 .index:hover {
     color: #404BBF;
 }
+
 .index:focus {
     color: #404BBF;
 }
+
 .contact {
     color: var(--more-blue);
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-style: normal;
 }
+
 .contact:hover{
     color:#404bbf;
 }
+
 .contact:focus{
     color: #404BBF;
 }
+
 .first {
     color: var(--dark-blue);
     background-color: var(--dark-blue);
@@ -141,6 +168,7 @@ ul {
     flex-shrink: 0;
     align-items: center;
 }
+
 .title{
     font-size: 56px;
     line-height: 1.07;
@@ -148,11 +176,13 @@ ul {
     letter-spacing: 0.02em;
     color: #FFFFFF;
 }
+
 .section-title {
     max-width: 496px;
     margin: 0 auto;
     padding-bottom: 48px;
 }
+
 .btn {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -161,15 +191,19 @@ ul {
     letter-spacing: 0.04em;
     color: #FFFFFF;
 }
+
 .btn:hover{
     background-color: #404BBF;
 }
+
 .btn:focus{
     background-color: #404BBF;
 }
+
 .btn {
     cursor:pointer;
 }
+
 .titlefour {
     font-weight: 500;
     font-size: 20px;
@@ -177,11 +211,13 @@ ul {
     letter-spacing: 0.02em;
     color: var(--dark-blue);
 }
+
 .firsttitle {
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-size: 16px;
 }
+
 .titleh {
     font-size: 36px;
     line-height: 1.11;
@@ -190,9 +226,11 @@ ul {
     text-transform: capitalize;
     color: var(--dark-blue);
 }
+
 .lastsection{
     background-color: #F4F4FD;
 }
+
 .team {
     font-size: 36px;
     line-height: 1.11;
@@ -201,18 +239,22 @@ ul {
     text-transform: capitalize;
     color: var(--dark-blue);
 }
+
 .ord {
     background-color:  #FFFFFFFF;
 }
+
 .lastpart{
     background-color: var(--dark-blue);
     padding: 100px 0;
 }
+
 .description {
     line-height: 1.5;
     color: var(--light-color);
     letter-spacing: 0.02em;
 }
+
 .custom-class {
     font-weight: 500;
     font-size: 20px;
@@ -220,15 +262,19 @@ ul {
     letter-spacing: 0.02em;
     color: var(--dark-blue);
 }
+
 .teamp {
     background-color: #FFFFFFFF;
 }
+
 .firsttitle {
     color: var(--more-blue)
 }
+
  .logoc {
     color: #F4F4FD;
 }
+
 .firstbtn {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -238,21 +284,26 @@ ul {
     color: var(--button-color);
     background-color: var(--light-color);
 }
+
 .firstbtn:hover {
     color:#FFFFFFFF;
     background-color: #404BBF;
 }
+
 .firstbtn:focus {
     color:#FFFFFFFF;
     background-color: #404BBF;
 }
+
 .firstbtn {
     cursor:pointer;
 }
+
 .first-row {
     padding-top: 120px;
     padding-bottom: 120px;
 }
+
 .hidden-title {
     visibility: hidden;
     height: 1px;
@@ -261,34 +312,43 @@ ul {
     white-space: nowrap;
     width: 1px;
 }
+
 .first-row-list {
     display: flex;
     gap: 24px;
 }
+
 .title-first-element {
     margin-bottom: 8px;
 }
+
 .third-section {
     padding-bottom: 120px;
 }
+
 .title-second-element {
     margin-bottom: 72px;
 }
+
 .second-row-list {
     display: flex;
     gap: 24px;
 }
+
 .last-row {
     display: flex;
     padding: 120px 0;
 }
+
 .last-title {
     margin-bottom: 72px;
 }
+
 .last-list {
     display: flex;
     gap: 24px;
 }
+
 .last-element {
     border-top-left-radius: 0px;
         border-top-right-radius: 0px;
@@ -296,44 +356,55 @@ ul {
         border-bottom-left-radius: 4px;
         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+
 .first-name {
     padding: 32px 0;
 }
+
 .title-name {
     text-align: center;
     margin-bottom: 8px;
 }
+
 .job {
     text-align: center;
 }
+
 .logo-st {
     display: inline-block;
     margin-bottom: 16px;
 }
+
 .last-decription {
     max-width: 264px;
 }
+
 .portf-section {
     padding-top: 96px;
     padding-bottom: 120px;
 }
+
 .main-list {
     display: flex;
     justify-content: center;
     gap: 24px;
     margin-bottom: 72px;
 }
+
 .main-btn {
     border: 1px solid var(--main-button);
     border-radius: 4px;
     padding: 12px 24px;
 }
+
 .main-btn:hover {
     border: 1px solid transparent;
 }
+
 .main-btn:focus {
     border: 1px solid transparent;
 }
+
 .card-list {
     display: flex;
     flex-wrap: wrap;
@@ -341,17 +412,21 @@ ul {
     row-gap: 48px;
     padding: 0%;
 }
+
 .app {
     padding: 32px 16px;
     border: 1px solid #E7E9FC;
     border-top: none;
 }
+
 .card-title {
     margin-bottom: 8px;
 }
+
 .top {
     padding: 24px 0;
 }
+
  .visually-hidden {
      position: absolute;
      width: 1px;
@@ -364,10 +439,12 @@ ul {
      clip: rect(0 0 0 0);
      overflow: hidden;
  }
+
 .last-element {
     width: 100%;
     min-width: 264px;
 }
+
 .hero {
 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
     max-width: 1440px;
@@ -375,6 +452,7 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     background-position: center;
     background-size: cover;
 }
+
 .frsticn {
     display: flex;
     align-items: center;
@@ -401,23 +479,29 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     justify-content: center;
     gap: 24px;
 }
+
 .inst {
     width: 40px;
     height: 40px;
 }
+
 .media:hover {
 background-color: #404bbf;
 } 
+
 .media:focus{
     background-color: #404bbf;
 }
+
 .firstr {
     fill: var(--light-color);
 }
+
 .cust-class {
     padding-top: 120px;
     padding-bottom: 120px;
 }
+
 .tittle-custm {
     font-size: 36px;
     line-height: 1.11;
@@ -425,16 +509,19 @@ background-color: #404bbf;
     margin-bottom: 72px;
     text-align: center;
 }
+
 .custm-list {
     display: flex;
     justify-content: center;
     gap: 24px;
     list-style-type: none;
 }
+
 .section-five {
     width: calc((100% - 120px) / 6);
     height: 88px;
 }
+
 .link-customer {
 width: 100%;
 height: 100%;
@@ -445,14 +532,64 @@ align-items: center;
 justify-content: center;
 color: #8e8f99;
 }
+
 .link-customer:hover {
     border-color: #404bbf;
     color: #404bbf
 }
+
 .link-customer:focus {
     border-color: #404bbf;
     color: #404bbf;
 }
+
 .icon-custom {
     fill: currentColor;
+}
+
+.lastcontainer {
+    display: flex;
+    align-items: baseline;
+}
+
+.footlogo {
+    margin-right: 120px;
+}
+
+.soctext {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFFFF;
+    margin-bottom: 16px;
+
+}
+
+.lastdivclass {
+    display: flex;
+    gap: 16px;
+}
+
+.lastdivelement{
+    width: 40px;
+    height: 40px;
+}
+
+.lastdivlink {
+width: 100%;
+height: 100%;
+background-color: #4d5ae5;
+border-radius: 50%;
+display: flex;
+align-items: center;
+}
+
+.lastdivlink:hover {
+    background-color: #31d0aa;
+}
+.lastdivlink {
+    background-color: #31d0aa;
+}
+.lastsocial {
+    fill: #f4f4f4fd;
 }
